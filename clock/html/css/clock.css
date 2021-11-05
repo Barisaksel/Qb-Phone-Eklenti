@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+
+.clock-app {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+.clock-app-loaded {
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 10px soldi white;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#krono {
+    font-size: 15.4px;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -55%);
+}
+
+#kronocizgi {
+    font-size: 10px;
+    color: rgb(24, 23, 23);
+    top: 12.5%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -55%);
+}
+
+#cronometer {
+    font-size: 75px;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+#buttons {
+    position: absolute;
+    top: 70%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.cronometer-buttons {
+    color: white;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    line-height: 6vh;
+    float: left;
+    margin-top: 24.4vh;
+    margin-left: 2.5vh;
+    /* color: #701729 */
+}
+
+.cronometer-buttons:hover {
+    opacity: 0.2;
+}
+
+.cronometer-buttons2 {
+    color: white;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    line-height: 6vh;
+    float: left;
+    margin-top: 24.4vh;
+    margin-left: 11vh;
+    /* color: #701729 */
+}
+
+
+.clock-app-header {
+    position: absolute;
+    width: 100%;
+    height: 7vh;
+    top: 50vh;
+    z-index: 99;
+}
+
+.clock-app-header-button {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    line-height: 6vh;
+    background: #0f0f0f;
+    border-bottom: .3vh solid rgba(0, 0, 0, 0);
+    font-family: 'Heebo', sans-serif;
+    color: #ff7c14;
+    transition: .08s;
+}
+.clock-app-header-button:hover {
+    background: #252525;
+}
+.clock-app-header-button-selected p {
+    color: white;
+}
+
+.clock-app-header-button-selected i {
+    color: white;
+}
+.clock-app-header-button > i {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: .9vh;
+    font-size: 2vh;
+}
+.clock-app-header-button > p {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 1.4vh;
+    font-size: 1.25vh;
+}
+
+.clock-app-invoices {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0f0f0f;
+    top: .5vh;
+    left: 0.4vh;
+}
+.clock-app-invoices-list {
+    position: absolute;
+    top: 30.92vh;
+    height: 33%;
+    width: 100%;
+    background-color: transparent;
+    overflow-y: scroll;
+}
+.clock-app-invoices-list::-webkit-scrollbar {
+    width: .5vh;
+    background-color: white;
+}
+.clock-app-invoice p {
+    margin-left: 1.5vh;
+    margin-top: 1vh;
+    display: inline-block;
+}
+
+.clock-app-invoice span {
+    float: right;
+    margin-right: 1.5vh;
+    margin-top: 1vh;
+    display: inline-block;
+}
+.start-stop {
+    background-color: rgb(21, 87, 37);
+    color:rgb(39, 184, 75);
+    
+}
+
+.reset-tur {
+    left: 3vh;
+    bottom: 50vh;
+}
