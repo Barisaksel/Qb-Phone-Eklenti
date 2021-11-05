@@ -1,8 +1,10 @@
 # Qb-Phone-Eklenti
 Qb-Phone-Eklenti
+
 Qb-Phone-addition
 
 Uyumlu Telefon : QB-Phone (ESX - QBus)
+
 Supported Phones : QB-Phone (ESX - QBus)
 
 [TR]
